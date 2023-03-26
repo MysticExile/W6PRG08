@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="trainedModel.js" type="module"></script>
+    <title>Prediction Page</title>
+</head>
+<body>
+<div><h2>Diabates prediction algorithm</h2></div>
+<button><a href="index.html">Back to home</a></button>
+
+<section>
+    <label for='bmi'>BMI: </label><input type='number' id='bmi'/>
+    <label for='glucose'>Glucose: </label><input type='number' id='glucose'/>
+    <br/>
+    <br/>
+    <button id="submit">Predict</button>
+</section>
+<section>
+    <div id="result"></div>
+</section>
+</body>
+</html>

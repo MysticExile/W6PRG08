@@ -1,0 +1,85 @@
+{
+  "root": {
+    "attribute": "Glucose",
+    "predicateName": ">=",
+    "pivot": 155,
+    "match": {
+      "attribute": "bmi",
+      "predicateName": ">=",
+      "pivot": 29.9,
+      "match": {
+        "attribute": "bmi",
+        "predicateName": ">=",
+        "pivot": 46.5,
+        "match": {
+          "attribute": "Glucose",
+          "predicateName": ">=",
+          "pivot": 165,
+          "match": {
+            "attribute": "Glucose",
+            "predicateName": ">=",
+            "pivot": 180,
+            "match": {
+              "category": "1"
+            },
+            "notMatch": {
+              "category": "0"
+            },
+            "matchedCount": 2,
+            "notMatchedCount": 3
+          },
+          "notMatch": {
+            "category": "1"
+          },
+          "matchedCount": 5,
+          "notMatchedCount": 3
+        },
+        "notMatch": {
+          "attribute": "Pedigree",
+          "predicateName": ">=",
+          "pivot": 2.329,
+          "match": {
+            "category": "0"
+          },
+          "notMatch": {
+            "attribute": "Pedigree",
+            "predicateName": ">=",
+            "pivot": 0.212,
+            "match": {
+              "attribute": "Glucose",
+              "predicateName": ">=",
+              "pivot": 166,
+              "match": {
+                "category": "1"
+              },
+              "notMatch": {
+                "category": "1"
+              },
+              "matchedCount": 51,
+              "notMatchedCount": 18
+            },
+            "notMatch": {
+              "category": "1"
+            },
+            "matchedCount": 69,
+            "notMatchedCount": 11
+          },
+          "matchedCount": 1,
+          "notMatchedCount": 80
+        },
+        "matchedCount": 8,
+        "notMatchedCount": 81
+      },
+      "notMatch": {
+        "category": "1"
+      },
+      "matchedCount": 89,
+      "notMatchedCount": 18
+    },
+    "notMatch": {
+      "category": "0"
+    },
+    "matchedCount": 107,
+    "notMatchedCount": 507
+  }
+}
